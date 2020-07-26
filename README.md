@@ -25,3 +25,11 @@ This is a basic Discord client I made with a bot and a webhook. It uses the offi
     + Ask a guild moderator with the `Manage Webhooks` permission to create a webhook and give you the URL. Put the URL into the `webhook.txt` file.
   + If you can't get a webhook:
     + You will not be able to send messages but you may be able to receive messages if you have a bot token.
+
+
+###How to run in Linux (May work for macOS, but not tested):
+- Open a Terminal/Shell window. run `python3 --version`. If it returns some text similar to `Python 3.8.4` then you have Python 3. If you don't, go to [the Python 3 installation guide](https://docs.python-guide.org/starting/install3/linux/) and install Python 3.
+- Open the terminal, go into the discordBotClient folder and run `python3 ./chat.py & python3 ./send.py`. Follow the instructions and you will be able to use your terminal as a simple Discord client.
+
+##Features
+List coming soon...
